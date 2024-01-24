@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from themewagon.github.io/counselor/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 18 Jan 2024 04:36:49 GMT -->
-<!-- Added by HTTrack -->
-<meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 
 <head>
 	<title>Counselor - Free Bootstrap 4 Template by Colorlib</title>
@@ -22,6 +20,19 @@
 
 	<link rel="stylesheet" href="css/flaticon.css">
 	<link rel="stylesheet" href="css/style.css">
+	<style>
+		.error {
+			color: red;
+			margin-top: 5px;
+			font-family: math;
+		}
+
+		.has-error .form-control {
+			border-color: red;
+			box-shadow: 0 0 10px red;
+		}
+	</style>
+
 </head>
 
 <body>
@@ -103,7 +114,8 @@
 										<span class="fa fa-map-marker"></span>
 									</div>
 									<div class="text">
-										<p><span>Address:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
+										<p><span>Address:</span> Guezou Nagar, Athanavur, Yelagiri, Tamil Nadu 635853
+										</p>
 									</div>
 								</div>
 							</div>
@@ -113,17 +125,18 @@
 										<span class="fa fa-phone"></span>
 									</div>
 									<div class="text">
-										<p><span>Phone:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
+										<p><span>Phone:</span> <a href="tel://588601821">588601821</a></p>
 									</div>
 								</div>
 							</div>
 							<div class="col-md-3">
 								<div class="dbox w-100 text-center">
 									<div class="icon d-flex align-items-center justify-content-center">
-										<span class="fa fa-paper-plane"></span>
+										<span class="fa fa-envelope"></span>
 									</div>
 									<div class="text">
-										<p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a>
+										<p><span>Email:</span> <a
+												href="mailto:info@yoursite.com">boscosoft@gmail.com</a>
 										</p>
 									</div>
 								</div>
@@ -134,12 +147,19 @@
 										<span class="fa fa-globe"></span>
 									</div>
 									<div class="text">
-										<p><span>Website</span> <a href="#">yoursite.com</a></p>
+										<p><span>Website:</span> <a href="https://www.boscosofttech.com/"
+												target="_blank">boscosofttech.com</a></p>
 									</div>
 								</div>
 							</div>
 						</div>
 						<div class="row no-gutters">
+							<div class="col-md-5">
+								<iframe
+									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53927.06987002231!2d78.61127367204118!3d12.579012372977356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3badaaea950786f3%3A0x5f3b489cca9a30a2!2sBosco%20Soft%20Technologies%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1706070743012!5m2!1sen!2sin"
+									width="600" style="border:0;height: 562px;" allowfullscreen="" loading="lazy"
+									referrerpolicy="no-referrer-when-downgrade"></iframe>
+							</div>
 							<div class="col-md-7">
 								<div class="contact-wrap w-100 p-md-5 p-4">
 									<h3 class="mb-4">Contact Us</h3>
@@ -147,28 +167,41 @@
 										<div class="row">
 											<div class="col-md-6">
 												<div class="form-group">
-													<label class="label" for="name">Full Name</label>
+													<label class="label" for="name">Full Name&nbsp;<span
+															style="color: red;">*</span></label>
 													<input type="text" class="form-control" name="name" id="name"
-														placeholder="Name">
+														autofocus placeholder="Enter Name">
 												</div>
 											</div>
 											<div class="col-md-6">
 												<div class="form-group">
-													<label class="label" for="email">Email Address</label>
+													<label class="label" for="email">Email Address&nbsp;<span
+															style="color: red;">*</span></label>
 													<input type="email" class="form-control" name="email" id="email"
-														placeholder="Email">
+														placeholder="Enter Email Address">
 												</div>
 											</div>
-											<div class="col-md-12">
+											<div class="col-md-6">
 												<div class="form-group">
-													<label class="label" for="subject">Subject</label>
+													<label class="label" for="phone">Mobile Number&nbsp;<span
+															style="color: red;">*</span></label>
+													<input type="text" class="form-control" name="phone" id="phone"
+														placeholder="Mobile Number">
+												</div>
+											</div>
+
+											<div class="col-md-6">
+												<div class="form-group">
+													<label class="label" for="subject">Subject&nbsp;<span
+															style="color: red;">*</span></label>
 													<input type="text" class="form-control" name="subject" id="subject"
-														placeholder="Subject">
+														placeholder="Enter Subject">
 												</div>
 											</div>
 											<div class="col-md-12">
 												<div class="form-group">
-													<label class="label" for="#">Message</label>
+													<label class="label" for="message">Message&nbsp;<span
+															style="color: red;">*</span></label>
 													<textarea name="message" class="form-control" id="message" cols="30"
 														rows="4" placeholder="Message"></textarea>
 												</div>
@@ -182,9 +215,6 @@
 										</div>
 									</form>
 								</div>
-							</div>
-							<div class="col-md-5 order-md-first d-flex align-items-stretch">
-								<div id="map" class="map"></div>
 							</div>
 						</div>
 					</div>
@@ -200,11 +230,6 @@
 					<div class="ftco-footer-widget mb-4">
 						<h2 class="ftco-heading-2 logo"><a href="#">Counselor</a></h2>
 						<p>Far far away, behind the word mountains, far from the countries.</p>
-						<ul class="ftco-footer-social list-unstyled mt-2">
-							<li class="ftco-animate"><a href="#"><span class="fa fa-twitter"></span></a></li>
-							<li class="ftco-animate"><a href="#"><span class="fa fa-facebook"></span></a></li>
-							<li class="ftco-animate"><a href="#"><span class="fa fa-instagram"></span></a></li>
-						</ul>
 					</div>
 				</div>
 				<div class="col-sm-12 col-md">
@@ -245,12 +270,12 @@
 						<h2 class="ftco-heading-2">Have a Questions?</h2>
 						<div class="block-23 mb-3">
 							<ul>
-								<li><span class="icon fa fa-map marker"></span><span class="text">203 Fake St. Mountain
-										View, San Francisco, California, USA</span></li>
-								<li><a href="#"><span class="icon fa fa-phone"></span><span class="text">+2 392 3929
-											210</span></a></li>
+								<li><span class="icon fa fa-map marker"></span><span class="text">Guezou Nagar,
+										Athanavur, Yelagiri, Tamil Nadu 635853</span></li>
+								<li><a href="#"><span class="icon fa fa-phone"></span><span
+											class="text">588601821</span></a></li>
 								<li><a href="#"><span class="icon fa fa-paper-plane pr-4"></span><span
-											class="text">info@yourdomain.com</span></a></li>
+											class="text">boscosoft@gmail.com</span></a></li>
 							</ul>
 						</div>
 					</div>
@@ -263,12 +288,9 @@
 					<div class="col-md-12">
 
 						<p class="mb-0" style="color: rgba(255,255,255,.5);">
-							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 							Copyright &copy;
-							<script>document.write(new Date().getFullYear());</script> All rights reserved | This
-							template is made with <i class="fa fa-heart color-danger" aria-hidden="true"></i> by <a
-								href="https://colorlib.com/" target="_blank">Colorlib.com</a>
-							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+							<script>document.write(new Date().getFullYear());</script> All rights reserved | by <a
+								href="https://boscosofttech.com/" target="_blank">BoscoSoftTech</a>
 						</p>
 					</div>
 				</div>
@@ -297,13 +319,58 @@
 	<script src="js/jquery.magnific-popup.min.js"></script>
 	<script src="js/jquery.animateNumber.min.js"></script>
 	<script src="js/scrollax.min.js"></script>
-	<script
-		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&amp;sensor=false"></script>
 	<script src="js/google-map.js"></script>
 	<script src="js/main.js"></script>
+	<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+	<script>
+		$(document).ready(function () {
+			$("#contactForm").validate({
+				rules: {
+					name: "required",
+					email: {
+						required: true,
+						email: true
+					},
+					phone: {
+						required: true,
+						digits: true,
+						minlength: 10,
+						maxlength: 10
+					},
+					subject: "required",
+					message: "required"
+				},
+				messages: {
+					name: "Please enter full name",
+					email: {
+						required: "Please enter email address",
+						email: "Please enter a valid email address"
+					},
+					phone: {
+						required: "Please enter mobile number",
+						digits: "Please enter only digits",
+						minlength: "Mobile number must be 10 digits",
+						maxlength: "Mobile number must be 10 digits"
+					},
+					subject: "Please enter a subject",
+					message: "Please enter message"
+				},
+				errorClass: 'error',
+				errorElement: 'div',
+				highlight: function (element) {
+					$(element).closest('.form-group').addClass('has-error');
+				},
+				unhighlight: function (element) {
+					$(element).closest('.form-group').removeClass('has-error');
+				},
+				submitHandler: function (form) {
+					form.submit();
+				}
+			});
+		});
+	</script>
 
 </body>
-
-<!-- Mirrored from themewagon.github.io/counselor/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 18 Jan 2024 04:36:49 GMT -->
 
 </html>
