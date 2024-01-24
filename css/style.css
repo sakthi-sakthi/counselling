@@ -10504,7 +10504,7 @@ h5,
   position: relative;
   z-index: 0;
   width: 100%;
-  background: #8b5a2b;
+  background: #4dc3b1;
 }
 .wrap .phone {
   z-index: 1;
@@ -11010,8 +11010,8 @@ h5,
   outline: none;
 }
 .btn.btn-primary {
-  background: #8b5a2b !important;
-  border: 1px solid #8b5a2b !important;
+  background: #4dc3b1 !important;
+  border: 1px solid #4dc3b1 !important;
   color: #fff !important;
 }
 .btn.btn-primary:hover {
@@ -11087,7 +11087,7 @@ h5,
   }
 }
 .ftco-intro .intro.aside-stretch {
-  background: #8b5a2b;
+  background: #f1a584;
 }
 .ftco-intro .intro.aside-stretch:after {
   position: absolute;
@@ -11096,7 +11096,7 @@ h5,
   bottom: 0;
   content: "";
   width: 360%;
-  background: #8b5a2b;
+  background: #f1a584;
   z-index: 99;
 }
 @media (max-width: 991.98px) {
@@ -11112,10 +11112,10 @@ h5,
   padding: 30px;
 }
 .intro.color-1 {
-  background: #8b5a2b;
+  background: #f1a584;
 }
 .intro.color-2 {
-  background: #8b5a2b;
+  background: #f1a584;
 }
 .intro .icon {
   margin-right: 20px;
@@ -11701,7 +11701,7 @@ textarea.form-control {
   width: 50px;
   display: block;
   float: left;
-  background: #8b5a2b;
+  background: #4dc3b1;
   border-radius: 50%;
   position: relative;
 }
