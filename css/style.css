@@ -12781,7 +12781,8 @@ textarea.form-control {
   color: #4dc3b1;
 }
 #contadd {
-  margin-left: 10rem;
+  margin-left: 6rem;
+  text-align: end;
 }
 @media (max-width: 768px) {
   #contadd {
